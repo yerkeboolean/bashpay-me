@@ -1,0 +1,9 @@
+.shop {
+    min-height: 100vh;
+    min-width: 100%;
+    max-height: 100vh;
+    max-width: 100%;
+    color: white;
+    display: grid;
+    background-color: black;
+}
