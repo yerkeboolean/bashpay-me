@@ -10,6 +10,26 @@ code {
     monospace;
 }
 
+
 html {
-  font-size: 62.5%; 
+  font-size: 75.5%; 
+}
+
+
+@media screen and (max-width: 1440px){
+  html {
+    font-size: 62.5%; 
+  }
+}
+
+@media screen and (max-width: 1280px){
+  html {
+    font-size: 50%; 
+  }
+}
+
+@media screen and (max-width: 1000px){
+  html {
+    font-size: 40%; 
+  }
 }

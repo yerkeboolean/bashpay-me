@@ -1,0 +1,22 @@
+.shopItem {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.shopItem_inner{
+    padding: 15em 10rem 0;
+}
+
+.shopItem_info{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+
+.shopItem_main_img img{
+    height: 100%;
+    width: 100%;
+}

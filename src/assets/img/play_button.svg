@@ -1,4 +1,3 @@
 <svg width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="56" cy="56" r="56" fill="white"/>
-<path d="M50.3923 46L68.3923 56.3923L50.3923 66.7846L50.3923 46Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M56 112C86.9279 112 112 86.9279 112 56C112 25.0721 86.9279 0 56 0C25.0721 0 0 25.0721 0 56C0 86.9279 25.0721 112 56 112ZM73.1673 56.3923L48.0048 41.8647V70.9198L73.1673 56.3923Z" fill="white"/>
 </svg>
