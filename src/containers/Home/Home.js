@@ -90,7 +90,7 @@ class Home extends Component {
   };
 
   render() {
-    const { show, current, listOfProjects, width } = this.state;
+    const { show, current, listOfProjects } = this.state;
     return (
       <div className={`home ${show ? 'home_active' : ''}`}>
         {show ? (
