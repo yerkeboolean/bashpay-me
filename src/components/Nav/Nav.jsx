@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
 const Nav = (props) => (
-  <nav>
+  <nav className="browserNav">
     <NavLink to="/" className="logo_wrapper">
         <div className="logo"></div>
     </NavLink>

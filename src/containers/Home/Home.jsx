@@ -6,7 +6,8 @@ import second from '../../assets/img/2.jpg';
 import third from '../../assets/img/3.jpg';
 import fourth from '../../assets/img/4.jpg';
 
-import './Home.css';
+import classes from './Home.css';
+
 
 class Home extends Component {
   constructor(props) {
@@ -95,10 +96,10 @@ class Home extends Component {
       <div className={`home ${show ? 'home_active' : ''}`}>
         {show ? (
           <Fragment>
-            <div className="home_player">
+            <div className={classes.home_player}>
               <Vimeo
                 video={listOfProjects[current].video}
-                className="home_video"yy
+                className={classes.home_video}
               />
             </div>
             <div className="home_player_close" onClick={this.close} />

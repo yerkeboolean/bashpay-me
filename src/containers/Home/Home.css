@@ -11,6 +11,8 @@
 }
 
 .home_active {
+  margin: auto 0;
+  height: 100%;
   grid-template-rows: unset;
   grid-template-columns: 55% 5% 40%;
   background-color: #000000;
@@ -227,5 +229,17 @@
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .home{
+    min-height: -webkit-fill-available;
+  }
+
+  .home__project_name {
+    font-size: 6rem;
+    line-height: 6rem;
   }
 }

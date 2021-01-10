@@ -1,4 +1,4 @@
-nav{
+.mobileNav{
     position: absolute;
     display: grid;
     width: 100vw;
@@ -12,42 +12,64 @@ nav{
 
 .logo{
     background-image: url('./../../assets/img/logo.svg');
-    min-width: 11rem;
-    min-height: 4rem;
+    min-width: 15rem;
+    min-height: 6rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-nav > menu{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+nav > .mobNavigation{
+    display: flex;
+    flex-direction: column;
     margin: 4rem 4rem 0 0;
 }
-nav > menu > li{
-    font-size: 1.6rem;
-    font-weight: 700;
-    list-style: none;
-    align-self: center;
-    text-transform: uppercase;
-    text-align: center;
-}
 
-nav > menu > li > a{
+
+
+.menuItem{
     text-decoration: none;
     color: #ffffff;
-}
-nav > menu > li > a:hover{
-    color: #dadada;
-}
-
-.navigation_active{
-    color: #dadada;
+    outline: none;
+    text-align: right;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
+.mobNavigation_active{
+    color: #dadada;
+    text-decoration: underline;
+}
+
+
+.mobSocial_buttons{
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mobSocial_buttons_link{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mobCopyright{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    justify-self: right;
+    text-align: right;
+}
 
 @media screen and (max-width: 600px){
     .logo_wrapper{
-        margin: 4rem 0 0 5rem;
+        margin: 20px 0 0 30px;
     }
 }
