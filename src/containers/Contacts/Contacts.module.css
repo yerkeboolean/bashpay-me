@@ -1,0 +1,54 @@
+.Contacts {
+  max-height: 100%;
+  max-width: 100%;
+  color: white;
+  background-color: black;
+  padding-top: 200px;
+  padding-left: 85px;
+}
+.header {
+  font-size: 36px;
+  font-weight: 900;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin-bottom: 60px;
+}
+.phone {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 64px;
+}
+.phone span {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.phone span a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.email {
+  font-size: 24px;
+  font-weight: 500;
+}
+.email span {
+  font-weight: 700;
+}
+
+.email span a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .Contacts {
+    padding-top: 70px;
+    padding-left: 25px;
+  }
+  .phone span {
+    font-size: 38px;
+    padding-top: 10px;
+    display: flex;
+  }
+}
