@@ -7,7 +7,7 @@ class Contacts extends Component {
       <div className={classes.Contacts}>
         <div className={classes.header}>Contacts</div>
         <div className={classes.phone}>
-          Telegram/Whats app:{" "}
+          Telegram/Whats app:
           <span>
             <a href="tel:+77783088200">+7 778 308 82 00</a>
           </span>

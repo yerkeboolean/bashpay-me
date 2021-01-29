@@ -1,9 +1,6 @@
-import React from 'react';
-import { Nav, MobileNav, Footer } from '../components';
-import {
-  BrowserView,
-  MobileView,
-} from "react-device-detect";
+import React from "react";
+import { Nav, MobileNav, Footer } from "../components";
+import { BrowserView, MobileView } from "react-device-detect";
 
 const Layout = (props) => (
   <div>
@@ -13,7 +10,7 @@ const Layout = (props) => (
     <MobileView>
       <MobileNav />
     </MobileView>
-    
+
     {props.children}
 
     <BrowserView>
