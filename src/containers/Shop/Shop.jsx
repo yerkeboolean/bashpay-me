@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import './Shop.css';
 import first_preset from '../../assets/img/preset_1.jpg';
-import second_preset from '../../assets/img/preset_2.jpg';
 
 class Shop extends Component {
   state = {
@@ -19,7 +18,7 @@ class Shop extends Component {
       {
         id: 2,
         title: 'Second Preset',
-        img: second_preset,
+        img: first_preset,
         //imgExamples: [second_example_1, second_example_2, second_example_3],
         text:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar urna vel magna facilisis pharetra. Sed vestibulum accumsan neque eu accumsan. Praesent sodales urna ultricies dolor placerat ultricies. Aenean molestie, augue id mollis blandit, dui ante tristique velit, vitae pharetra nibh nunc a lorem. Sed eu dui mattis, condimentum nunc id, placerat lectus. In elit tortor, aliquet quis felis tincidunt, pharetra suscipit nibh. Duis sit amet lacinia risus, viverra laoreet enim. Cras blandit tincidunt laoreet.',
@@ -27,15 +26,7 @@ class Shop extends Component {
       {
         id: 3,
         title: 'Second Preset',
-        img: second_preset,
-        //imgExamples: [second_example_1, second_example_2, second_example_3],
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar urna vel magna facilisis pharetra. Sed vestibulum accumsan neque eu accumsan. Praesent sodales urna ultricies dolor placerat ultricies. Aenean molestie, augue id mollis blandit, dui ante tristique velit, vitae pharetra nibh nunc a lorem. Sed eu dui mattis, condimentum nunc id, placerat lectus. In elit tortor, aliquet quis felis tincidunt, pharetra suscipit nibh. Duis sit amet lacinia risus, viverra laoreet enim. Cras blandit tincidunt laoreet.',
-      },
-      {
-        id: 4,
-        title: 'Second Preset',
-        img: second_preset,
+        img: first_preset,
         //imgExamples: [second_example_1, second_example_2, second_example_3],
         text:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar urna vel magna facilisis pharetra. Sed vestibulum accumsan neque eu accumsan. Praesent sodales urna ultricies dolor placerat ultricies. Aenean molestie, augue id mollis blandit, dui ante tristique velit, vitae pharetra nibh nunc a lorem. Sed eu dui mattis, condimentum nunc id, placerat lectus. In elit tortor, aliquet quis felis tincidunt, pharetra suscipit nibh. Duis sit amet lacinia risus, viverra laoreet enim. Cras blandit tincidunt laoreet.',
@@ -44,7 +35,7 @@ class Shop extends Component {
   };
 
   componentDidMount() {
-    const imageList = [first_preset, second_preset];
+    const imageList = [first_preset];
     imageList.forEach((image) => {
       new Image().src = image;
     });
